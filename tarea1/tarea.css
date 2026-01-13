@@ -1,0 +1,461 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor superior */
+header,
+nav {
+    background-color: black;
+
+}
+
+
+
+/* Barra superior */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* titulo */
+header h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    color: white;
+}
+
+/* Menú */
+nav {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li a {
+    font-family: 'Forum', serif;
+    letter-spacing: 3px;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/* Secciones */
+section {
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Texto */
+.hero-texto {
+    max-width: 450px;
+}
+
+.hero-texto .nuevo {
+    font-size: 14px;
+    color: #777;
+    letter-spacing: 2px;
+}
+
+.hero-texto h2 {
+    font-family: 'Forum', serif;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.hero-texto h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.hero-texto p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Botón */
+.btn-vermas {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.btn-vermas:hover {
+    background-color: #333;
+}
+
+/* Imagen circular */
+.hero-imagen {
+    width: 390px;
+    height: 380px;
+    background-color: #404040;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-imagen img {
+
+    width: 500px;
+    transform: rotate(0deg);
+}
+
+
+
+/* Productos */
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 220px;
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 100%;
+}
+
+.producto button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#zapatillas h2 {
+    font-family: 'Forum', serif;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+
+}
+
+/* DESCUENTOS */
+.dscnt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 60px;
+}
+
+/* Texto */
+.dscnt-texto {
+    max-width: 400px;
+}
+
+.dscnt-texto .dscnto {
+    font-size: 14px;
+    color: #777;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.dscnt-texto h2 {
+    font-family: 'Forum', serif;
+    font-size: 42px;
+    margin: 10px 0;
+}
+
+.dscnt-texto p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Botón */
+.btn-dscnt {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* Imagen */
+
+
+.dscnt-imagen img {
+    width: 300px;
+}
+
+.newsletter {
+    background: #111;
+    color: white;
+    padding: 60px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    margin: 80px;
+}
+
+.newsletter-texto h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.newsletter-texto p {
+    color: #ccc;
+}
+
+.newsletter-form {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.newsletter-form input {
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 220px;
+}
+
+.newsletter-form button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.footer {
+    padding: 80px;
+    background: white;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-col h3,
+.footer-col h4 {
+    margin-bottom: 15px;
+}
+
+.footer-col a {
+    display: block;
+    text-decoration: none;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.footer-col a:hover {
+    color: black;
+}
+
+.redes a {
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 60px;
+    color: #777;
+    font-size: 14px;
+}
+
+.ver-mas-contenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ver-mas-caja {
+    padding: 15px 40px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.ver-mas-caja:hover {
+    background-color: black;
+    color: white;
+}
+
+.ver-mas-contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.ver-mas-caja {
+    padding: 12px 40px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-family: 'Forum', serif;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.ver-mas-caja:hover {
+    background-color: black;
+    color: white;
+}
+
+.producto img {
+    width: 100%;
+    height: 180px;
+    /* mismo alto para todas */
+    object-fit: contain;
+    /* no se estira, se adapta */
+    margin-bottom: 15px;
+}
+
+.producto {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+
+section {
+    border-top: 1px solid #eee;
+}
+
+
+
+/* beneficios*/
+.beneficios {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 60px 80px;
+    background: #fafafa;
+}
+
+.beneficio {
+    width: 220px;
+    text-align: center;
+}
+    /* animar*/
+.animar {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.animar.activo {
+    opacity: 1;
+    transform: translateY(0);
+}
+.animar {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.animar.activo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.carrito {
+    color: white;
+    font-size: 16px;
+    font-family: 'Forum', serif;
+}
+
+.mensaje {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: black;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+}
+
+.mensaje.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.carrito {
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+}
+
+.carrito i {
+    font-size: 18px;
+}
+
+/* Número del carrito */
+.carrito span {
+    background: white;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    right: -12px;
+}
+
